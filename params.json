@@ -76,7 +76,20 @@
     "gitCommitMode": "AUTO",
     "disableAutomaticTriggers": false,
     "integrations": {
-      "integrations": []
+      "integrations": [
+        {
+          "active": true,
+          "hook": {
+            "type": "github",
+            "configuration": {
+              "useProxy": true,
+              "username": "saikrishna531/Mlops",
+              "accessToken": "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",
+              "repository": "git@github.com:saikrishna531/Mlops.git"
+            }
+          }
+        }
+      ]
     },
     "flowBuildSettings": {
       "mergeSparkPipelines": false,
